@@ -1,0 +1,65 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.form-div {
+  margin: 50px auto 50px;
+  padding: 25px 15px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-family: "Lora", serif;
+}
+
+form p {
+  font-size: 0.9em;
+}
+
+.form-div.login {
+  margin-top: 100px;
+}
+
+.logout {
+  color: red;
+}
+
+ul.navbar-nav li.more.dropdown {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+#navbarNavDropdown ul li ul.dropdown-menu {
+  border-radius: 0;
+  border-top-width: 3px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+}
